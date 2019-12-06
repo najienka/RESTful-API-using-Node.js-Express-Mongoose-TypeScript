@@ -13,6 +13,7 @@ This is a boilerplate for building scalable and robust REST APIs using Node.js &
   - [Directory Structure](#directory-structure)
   - [Available Routes](#available-routes)
   - [Available Scripts](#available-scripts)
+- [To Do](#to-do)
 - [License](#license)
 
 ## Prerequisites
@@ -104,6 +105,15 @@ You need to install [MongoDB](https://docs.mongodb.com/manual/administration/ins
 - `clean` - Remove dist, node_modules, coverage folders,
 - `start` - Run the transpiled app
 - `prod` - Build & run the transpiled app
+
+
+## To Do
+
+- `document uploads` - link to AWS S3 bucket or Azure
+- `mocha tests with chai assertion library`
+- `Stripe and cryptocheckout payment gateways`
+- `explore ethereum blockchain for immutable records`
+
 
 ## License
 
