@@ -107,4 +107,4 @@ You need to install [MongoDB](https://docs.mongodb.com/manual/administration/ins
 
 ## License
 
-MIT © Michael Méndez
+MIT © Auto Inspector
