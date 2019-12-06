@@ -13,7 +13,7 @@ This is a boilerplate for building scalable and robust REST APIs using Node.js &
   - [Directory Structure](#directory-structure)
   - [Available Routes](#available-routes)
   - [Available Scripts](#available-scripts)
-- [To Do](#to-do)
+- [To Do](#todo)
 - [License](#license)
 
 ## Prerequisites
