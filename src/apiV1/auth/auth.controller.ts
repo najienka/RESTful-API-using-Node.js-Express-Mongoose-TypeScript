@@ -56,7 +56,7 @@ export default class UserController {
       const newUser = await user.save();
 
       res.status(201).send({
-        success: false,
+        success: true,
         message: 'User Successfully created',
         data: newUser
       });

@@ -7,7 +7,7 @@ import User from './user.model';
 export default class UserController {
   public findAll = async (req: Request, res: Response): Promise<any> => {
     try {
-      const users = await User.find();
+      const users = await User.find({},{password:0});
       if (!users) {
         return res.status(404).send({
           success: false,
