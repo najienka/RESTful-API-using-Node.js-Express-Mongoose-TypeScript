@@ -3,3 +3,4 @@ package-lock.json
 dist
 npm-debug.log
 .env
+rest_endpoints.txt

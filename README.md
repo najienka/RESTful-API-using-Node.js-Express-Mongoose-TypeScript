@@ -86,6 +86,7 @@ You need to install [MongoDB](https://docs.mongodb.com/manual/administration/ins
 └── tslint.json
 ```
 
+
 ### Available routes
 
 | Method   | Resource        | Description                                                                                                                                 |
@@ -109,6 +110,9 @@ You need to install [MongoDB](https://docs.mongodb.com/manual/administration/ins
 
 ## To Do
 
+- `check that security critical endpoints require authentication, e.g., when updating or deleting users from the database`
+- `check that private data is not leaked in endpoints using mongodb attribute hide option, e.g., db.users.find({},{password:0})`
+- `CRUD endpoints per user requirement`
 - `document uploads` - link to AWS S3 bucket or Azure
 - `mocha tests with chai assertion library`
 - `Stripe and cryptocheckout payment gateways`
